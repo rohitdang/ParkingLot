@@ -18,8 +18,8 @@ Example: File
 To run the program:
 $ ./parking_lot file_inputs.txt
 
-Input (contents of file):
-
+## Input (contents of file):
+ ```sh
 create_parking_lot 6
 park KA-01-HH-1234 White
 park KA-01-HH-9999 White
@@ -35,9 +35,9 @@ registration_numbers_for_cars_with_colour White
 slot_numbers_for_cars_with_colour White
 slot_number_for_registration_number KA-01-HH-3141
 slot_number_for_registration_number MH-04-AY-1111
-
-Output (to STDOUT):
-
+```
+## Output (to STDOUT):
+```sh
 Created a parking lot with 6 slots
 Allocated slot number: 1
 Allocated slot number: 2
@@ -58,16 +58,17 @@ KA-01-HH-1234, KA-01-HH-9999, KA-01-P-333
 1, 2, 4
 6
 Not found
+```
 
+### Example: Interactive
 
-Example: Interactive
-
-To run the program and launch the shell:
-
+### To run the program and launch the shell:
+```sh
 $ ./parking_lot
-
+```
 Assuming a parking lot with 6 slots, the following commands should be run in sequence by typing them in at a prompt and should produce output as described below the command:
 
+```sh
 Input:
 create_parking_lot 6
 
@@ -168,7 +169,7 @@ slot_number_for_registration_number MH-04-AY-1111
 
 Output:
 Not found
-
+```
 
 
 Requirements
